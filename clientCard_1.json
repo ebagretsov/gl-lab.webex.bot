@@ -1,0 +1,190 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "weight": "Bolder",
+                            "text": "Заказчик",
+                            "horizontalAlignment": "Left",
+                            "wrap": true,
+                            "color": "Light",
+                            "size": "Large"
+                        },
+                        {
+                            "type": "RichTextBlock",
+                            "inlines": [
+                                {
+                                    "type": "TextRun",
+                                    "text": "Извините, по Вашему запросу ничего не найдено. По интересующим Вас вопросам Вы можете обратиться к аккаунт менеджеру, указанному ниже.",
+                                    "weight": "Lighter",
+                                    "color": "Light"
+                                }
+                            ],
+                            "separator": true,
+                            "isVisible": false
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": 35,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Название",
+                                            "color": "Light",
+                                            "weight": "Bolder",
+                                            "spacing": "None"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Головной офис",
+                                            "spacing": "Small",
+                                            "weight": "Lighter",
+                                            "color": "Light"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": 65,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "",
+                                            "color": "Light",
+                                            "weight": "Bolder"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "",
+                                            "spacing": "Small",
+                                            "weight": "Lighter",
+                                            "color": "Light"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Default",
+                            "id": "2",
+                            "separator": true,
+                            "isVisible": false
+                        },
+                        {
+                            "type": "Container",
+                            "items": [
+                                {
+                                    "type": "ActionSet",
+                                    "actions": [
+                                        {
+                                            "type": "Action.OpenUrl",
+                                            "title": "Веб-сайт",
+                                            "url": "https://cisco.com"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "None",
+                            "isVisible": true
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ],
+            "id": "1",
+            "style": "good"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Аккаунт менеджер",
+                            "horizontalAlignment": "Left",
+                            "wrap": true,
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "color": "Light"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": 35,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Менеджер",
+                                            "color": "Light",
+                                            "weight": "Bolder",
+                                            "spacing": "None"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Email",
+                                            "spacing": "Small",
+                                            "color": "Light",
+                                            "weight": "Lighter"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Телефон",
+                                            "spacing": "Small",
+                                            "color": "Light",
+                                            "weight": "Lighter"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": 65,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "",
+                                            "color": "Light",
+                                            "weight": "Bolder"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "",
+                                            "spacing": "Small",
+                                            "weight": "Lighter",
+                                            "color": "Light"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "",
+                                            "spacing": "Small",
+                                            "color": "Light",
+                                            "weight": "Lighter"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Default",
+                            "id": "4",
+                            "separator": true
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ],
+            "id": "3",
+            "style": "accent"
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2"
+}
