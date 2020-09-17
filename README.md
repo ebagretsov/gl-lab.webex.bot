@@ -1,5 +1,3 @@
-# gl-lab.webex.bot
-
 # Bot Example using Webex Teams Bot Framework for Node JS
 
 ## Tested on:
