@@ -1,0 +1,9 @@
+{
+  "webhookUrl": "SERVER IP OR HOSTNAME",
+  "token": "WEBEX BOT TOKEN",
+  "port": 80,
+  "mysql_host": "MYSQL SERVER IP",
+  "mysql_username": "MYSQL USERNAME",
+  "mysql_password": "MYSQL PASS",
+  "mysql_database": "MYSQL DB NAME"
+}
