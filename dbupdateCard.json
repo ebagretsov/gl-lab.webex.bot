@@ -1,0 +1,71 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 2,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Добавление записи в базу данных",
+                            "weight": "Bolder",
+                            "size": "Medium"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Заполните необходимые поля для добавления нового клиента в базу данных",
+                            "isSubtle": true,
+                            "wrap": true
+                        },
+                        {
+                            "type": "Input.Text",
+                            "id": "Name",
+                            "placeholder": "Название Компании"
+                        },
+                        {
+                            "type": "Input.Text",
+                            "id": "City",
+                            "placeholder": "Страна, город"
+                        },
+                        {
+                            "type": "Input.Text",
+                            "id": "WebSite",
+                            "placeholder": "Веб-сайт Заказчика"
+                        },
+                        {
+                            "type": "Input.Text",
+                            "id": "Manager",
+                            "placeholder": "Имя, Фамилия менеджера"
+                        },
+                        {
+                            "type": "Input.Text",
+                            "id": "Email",
+                            "placeholder": "Email менеджера",
+                            "style": "Email"
+                        },
+                        {
+                            "type": "Input.Text",
+                            "id": "Phone",
+                            "placeholder": "Телефон менеджера",
+                            "style": "tel"
+                        },
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "Action.Submit",
+                                    "title": "Сохранить"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2"
+}
